@@ -4,9 +4,7 @@ import type { Testimonial, FAQItem } from './types';
 export const NAV_ITEMS = [
   { nameKey: 'nav.home', href: '#home' },
   { nameKey: 'nav.services', href: '#services' },
-  { nameKey: 'nav.howItWorks', href: '#how-it-works' },
   { nameKey: 'nav.subscriptions', href: '#subscriptions' },
-  { nameKey: 'nav.testimonials', href: '#testimonials' },
   { nameKey: 'nav.faq', href: '#faq' },
   { nameKey: 'nav.contact', href: '#contact' },
 ];

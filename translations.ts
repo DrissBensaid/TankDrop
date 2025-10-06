@@ -9,7 +9,6 @@ export const translations = {
       testimonials: 'Testimonials',
       faq: 'FAQ',
       contact: 'Contact',
-      login: 'Login',
     },
     orderNow: 'Order Now',
     emergencyOrder: 'Emergency Order',
@@ -117,7 +116,7 @@ export const translations = {
     modalConfirm: 'Confirm Order',
   },
   fr: {
-    nav: { home: 'Accueil', services: 'Services', howItWorks: 'Comment Ça Marche', subscriptions: 'Abonnements', testimonials: 'Témoignages', faq: 'FAQ', contact: 'Contact', login: 'Connexion' },
+    nav: { home: 'Accueil', services: 'Services', howItWorks: 'Comment Ça Marche', subscriptions: 'Abonnements', testimonials: 'Témoignages', faq: 'FAQ', contact: 'Contact' },
     orderNow: 'Commander',
     emergencyOrder: "Commande d'Urgence",
     heroTitle: 'Votre carburant, livré\nn’importe où, n’importe quand.',
@@ -215,7 +214,7 @@ export const translations = {
     modalConfirm: 'Confirmer la Commande',
   },
   ar: {
-    nav: { home: 'الرئيسية', services: 'الخدمات', howItWorks: 'كيف نعمل', subscriptions: 'الاشتراكات', testimonials: 'الآراء', faq: 'الأسئلة الشائعة', contact: 'اتصل بنا', login: 'تسجيل الدخول' },
+    nav: { home: 'الرئيسية', services: 'الخدمات', howItWorks: 'كيف نعمل', subscriptions: 'الاشتراكات', testimonials: 'الآراء', faq: 'الأسئلة الشائعة', contact: 'اتصل بنا' },
     orderNow: 'اطلب الآن',
     emergencyOrder: 'طلب طارئ',
     heroTitle: 'وقودك، يُسلَّم\nفي أي مكان، في أي وقت.',

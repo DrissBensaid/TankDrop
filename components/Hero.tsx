@@ -8,13 +8,12 @@ const Hero: React.FC = () => {
   const { openModal } = useModal();
   return (
     <section id="home" className="relative h-screen flex items-center justify-center text-white">
+      <div
+        className="absolute inset-0 w-full h-full bg-cover bg-center z-[-1]"
+        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1617103513349-b639903702e6?q=80&w=1920&h=1080&fit=crop')" }}
+        aria-hidden="true"
+      ></div>
       <div className="absolute inset-0 bg-black opacity-50 z-0"></div>
-      <img 
-        src="https://picsum.photos/1920/1080?random=10" 
-        alt="Fuel delivery truck at night in a Moroccan city"
-        className="absolute inset-0 w-full h-full object-cover z-[-1]"
-        loading="eager"
-      />
       <div className="relative z-10 text-center px-4">
         <SectionAnimator>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-extrabold mb-4 drop-shadow-xl whitespace-pre-line">
